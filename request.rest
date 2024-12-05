@@ -1,0 +1,28 @@
+### POST Request to Predict Water Status
+POST http://127.0.0.1:5000/predict
+Content-Type: application/json
+
+{
+    "curah_hujan": 200.5,
+    "ketinggian_air": 150.0
+}
+
+### POST Request to Predict Water Status
+POST http://127.0.0.1:5000/decision-tree-calculation
+Content-Type: application/json
+
+{
+    "curah_hujan": 77.2,
+    "ketinggian_air": 32.5
+}
+### POST Request to Predict Water Status
+POST http://127.0.0.1:5000/add-training-data
+Content-Type: application/json
+
+{
+    "curah_hujan": 200.5,
+    "ketinggian_air": 150.0,
+    "status": "Siaga"
+}
+###
+GET http://127.0.0.1:5000/download-tree-image

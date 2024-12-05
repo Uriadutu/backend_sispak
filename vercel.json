@@ -1,0 +1,8 @@
+{
+    "functions": {
+      "./appp.py": {
+        "runtime": "python3.9"
+      }
+    }
+  }
+  
