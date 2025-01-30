@@ -7,7 +7,7 @@ from sklearn.tree import DecisionTreeClassifier, plot_tree
 import matplotlib.pyplot as plt
 import os
 import matplotlib
-
+from flask_cors import CORS
 
 app = Flask(__name__)
 matplotlib.use('Agg')
