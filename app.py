@@ -9,7 +9,6 @@ import os
 import matplotlib
 from flask_cors import CORS
 
-
 app = Flask(__name__)
 matplotlib.use('Agg') 
 
