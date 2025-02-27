@@ -13,7 +13,7 @@ app = Flask(__name__)
 matplotlib.use('Agg') 
 
 
-@app.after_request
+@app.after_request 
 def add_headers(response):
     
     response.headers['Referrer-Policy'] = 'no-referrer'
