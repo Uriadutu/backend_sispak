@@ -12,6 +12,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 matplotlib.use('Agg') 
 
+
 @app.after_request
 def add_headers(response):
     
